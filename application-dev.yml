@@ -9,7 +9,7 @@ eureka:
     hostname: localhost
     
  
-# spring:
+ spring:
 #   datasource:
 #     driver-class-name: com.mysql.cj.jdbc.Driver
 #     url: jdbc:mysql://localhost:3306/oath-doctorservicedb
@@ -22,9 +22,9 @@ eureka:
 #       hibernate:
 #         dialect: org.hibernate.dialect.MySQL5Dialect
 #     show_sql: true
-#   data:
-#     mongodb:
-#         host: localhost
-#         port: 27017
-#         database: oath-patientservicedb  
+   data:
+     mongodb:
+         host: localhost
+         port: 27017
+         database: oath-patientservicedb  
 
