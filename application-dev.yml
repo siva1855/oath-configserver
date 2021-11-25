@@ -1,0 +1,28 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    
+ 
+ spring:
+#   datasource:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://localhost:3306/oath-doctorservicedb
+#     username: root
+#     password: root
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.MySQL5Dialect
+#     show_sql: true
+   data:
+     mongodb:
+         host: localhost
+         port: 27017
+         database: oath-patientservicedb
